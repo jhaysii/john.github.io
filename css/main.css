@@ -119,6 +119,10 @@ h1, .h01 {
 	line-height: 1.355;
 	letter-spacing: -.1rem;
 }
+.skills-fa a i.fa {
+    font-size: 40px;
+	margin-right: 10px;
+}
 @media only screen and (max-width:600px) {
 	h1, .h01 {
 		font-size: 2.6rem;
