@@ -123,6 +123,10 @@ h1, .h01 {
     font-size: 40px;
 	margin-right: 10px;
 }
+a img {
+	max-height: 40px;
+	margin-left: 10px;
+}
 @media only screen and (max-width:600px) {
 	h1, .h01 {
 		font-size: 2.6rem;
