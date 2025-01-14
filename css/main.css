@@ -125,7 +125,7 @@ h1, .h01 {
 }
 a img {
 	max-height: 40px;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 @media only screen and (max-width:600px) {
 	h1, .h01 {
