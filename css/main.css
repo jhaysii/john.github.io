@@ -1361,8 +1361,8 @@ header .row {
 
 header .top-bar {
 	display: block;
-	/* background: #000000;
-	min-width: 220px; */
+	/* background: #000000; */
+	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1557,7 +1557,7 @@ header .logo a {
 /* dropdown nav */
 .main-navigation {
 	background: #000000;
-	padding: 24px 30px 42px;
+	padding: 24px 30px;
 	margin: 0;
 	width: 100%;
 	height: auto;
