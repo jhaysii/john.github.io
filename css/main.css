@@ -1100,11 +1100,12 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	display: none;
 }
 header .top-bar {
 	display: block;
-	background: #000000;
-	min-width: 220px;
+	/* background: #000000;
+	min-width: 220px; */
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1139,6 +1140,7 @@ header .logo a {
 	justify-content: space-between; /* Spread logo and navigation */
 	align-items: center; /* Center vertically */
 	padding: 0 100px; /* Padding on left and right */
+	backdrop-filter: blur(3px);
   }
   
   .topnav .logo {
@@ -1482,6 +1484,14 @@ header .logo a {
 	}
 	.intro-social li {
 		margin: 0 15px;
+	}
+}
+@media only screen and (max-width:960px) {
+	header .topnav {
+		display: none;
+	}
+	header .row {
+		display: block;
 	}
 }
 @media only screen and (max-width:768px) {
