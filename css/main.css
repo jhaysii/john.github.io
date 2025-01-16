@@ -1562,6 +1562,7 @@ header .logo a {
 .intro-info .lead {
 	text-align: left;
 	text-align: center;
+	text-align: justify;
 	/* padding-left: 13rem; */
 }
 
@@ -1667,6 +1668,7 @@ header .logo a {
 	.intro-info .lead {
 		padding-left: 0;
 		text-align: center;
+		text-align: justify;
 	}
 }
 
