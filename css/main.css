@@ -213,6 +213,24 @@ p.lead {
 	color: #888888;
 }
 
+.image-container {
+	width: 1140px;
+	margin: 0 auto; 
+	padding: 20px 20px 20px 20px; 
+	box-sizing: border-box; 
+  }
+  
+  .image-container img {
+	width: 1100px;
+	display: block; 
+	margin: 0 auto; 
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+
+.col-twelve {
+	margin-bottom: 10px;
+}
+
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
