@@ -224,8 +224,12 @@ p.lead {
 	box-sizing: border-box;
 	overflow: hidden;
 }
-  
-.image-container img {
+
+.image-inside {
+	overflow: hidden;
+}
+
+.image-inside img {
 	width: 100%;
 	height: auto;
 	display: block;
@@ -240,64 +244,8 @@ p.lead {
 }
 
 .image-container img:hover {
-	transform: scale(1.1);
+	transform: scale(1.03);
 }
-
-/* @media only screen and (max-width:1024px) {
-
-	.image-container {
-		width: 910.58px;
-	}
-
-	.image-container img {
-		width: 910.58px;
-		height: auto;
-		margin: 0 auto;
-	}
-}
-
-@media only screen and (max-width:600px) {
-
-	.image-container {
-		width: 511px;
-	}
-
-	.image-container img {
-		width: 511px;
-		height: auto;
-		margin: 0 auto;
-	}
-}
-
-@media only screen and (max-width:450px) {
-
-	.image-container {
-		width: 360px;
-	}
-
-	.image-container img {
-		width: 360px;
-		height: auto;
-		margin: 0 auto;
-	}
-}
-
-@media only screen and (max-width:293px) {
-
-	.image-container {
-		width: 185px;
-	}
-
-	.image-container img {
-		width: 185px;
-		height: auto;
-		margin: 0 auto;
-	}
-
-	.col-twelve {
-		margin-bottom: 1px;
-	}
-} */
 
 @media only screen and (max-width:768px) {
 	p.lead {
