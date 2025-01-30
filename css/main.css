@@ -281,6 +281,23 @@ p.lead {
 	}
 }
 
+@media only screen and (max-width:292px) {
+
+	.image-container {
+		width: 225px;
+	}
+
+	.image-container img {
+		width: 225px;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.col-twelve {
+		margin-bottom: 1px;
+	}
+}
+
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
