@@ -281,14 +281,14 @@ p.lead {
 	}
 }
 
-@media only screen and (max-width:292px) {
+@media only screen and (max-width:293px) {
 
 	.image-container {
-		width: 205px;
+		width: 185px;
 	}
 
 	.image-container img {
-		width: 205px;
+		width: 185px;
 		height: auto;
 		margin: 0 auto;
 	}
