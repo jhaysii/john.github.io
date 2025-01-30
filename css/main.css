@@ -284,11 +284,11 @@ p.lead {
 @media only screen and (max-width:292px) {
 
 	.image-container {
-		width: 225px;
+		width: 205px;
 	}
 
 	.image-container img {
-		width: 225px;
+		width: 205px;
 		height: auto;
 		margin: 0 auto;
 	}
