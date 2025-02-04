@@ -1410,7 +1410,6 @@ header .row {
 
 header .top-bar {
 	display: block;
-	/* background: #000000; */
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1422,7 +1421,6 @@ header .logo {
 	float: left;
 	margin-left: 20px;
 	margin-right: 50px;
-	margin-top: 10px;
 	position: relative;
 }
 
@@ -1443,23 +1441,17 @@ header .logo a {
 .topnav {
 	overflow: hidden;
 	background-color: rgba(51, 51, 51, 0.8);
-	/* Transparent black background */
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
-	/* Spread logo and navigation */
 	align-items: center;
-	/* Center vertically */
 	padding: 0 100px;
-	/* Padding on left and right */
 	backdrop-filter: blur(3px);
 }
 
 .topnav .logo {
-	height: 40px;
-	/* Set logo height */
+	height: 50px;
 	margin-left: 20px;
-	/* Optional space between logo and left edge */
 }
 
 .nav-links {
@@ -1470,11 +1462,9 @@ header .logo a {
 	color: #f2f2f2;
 	text-align: center;
 	padding: 0 16px;
-	/* Adjust horizontal padding */
 	text-decoration: none;
 	font-size: 17px;
 	line-height: 60px;
-	/* Center vertically by matching line-height to height */
 }
 
 .nav-links a:hover {
