@@ -1477,7 +1477,9 @@ header .logo a {
 	color: white;
 }
 
-
+.item-wrap {
+	padding: 2px;
+}
 
 
 /**
